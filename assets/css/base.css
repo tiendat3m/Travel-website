@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,200&family=Roboto:wght@300;400;500;700&display=swap');
+
+
+:root {
+    --green: #219150;
+    --black: #10221b;
+    --white: #fff;
+    --light-bg: #eee;
+    --box-shadow: 0 .5rem 1rem  rgba(0, 0, 0, .1);
+    --border: .2rem solid var(--black);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: all .1s ease-out;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    -webkit-transition: .1s linear;
+    -webkit-box-sizing: border-box;
+}
+
+
+html{
+    /* mặc định 100% là 16px nên 62.5% = 10px */
+    /* để chủ yếu sử dung rem 1 rem giờ bằng 10 px */
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+section {
+    padding: 5rem 16rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 3rem;
+    border: var(--border);
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    color: var(--black);
+    background: none;
+}
+
+.btn:hover {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+#menu-btn {
+    display: none;
+}
+
+.swiper .swiper-button-next::after, 
+.swiper .swiper-button-prev::after {
+    font-size: 3rem;
+    color: var(--black);
+}
+
+.common-heading {
+    text-align: center;
+    font-size: 4rem;
+    color: var(--black);
+}
+
+.mt-8 {
+    margin-top: .8rem;
+}
+
+.mt-16 {
+    margin-top: 1.6rem;
+}
+
+.mt-20 {
+    margin-top: 2rem;
+}
+
+.mt-24 {
+    margin-top: 2.4rem;
+}
