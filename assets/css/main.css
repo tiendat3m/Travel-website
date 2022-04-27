@@ -620,7 +620,7 @@
 
 .footer .box {
     display: flex;
-    flex-direction: column;
+    flex-flow: column;
 }
 
 .footer .box h3 {
