@@ -598,6 +598,16 @@
     cursor: pointer;
 }
 
+/* ======CLIENTS SECTION */
+
+.clients .slide {
+    text-align: center;
+}
+
+.clients .slide img {
+    height: 12rem;
+}
+
 /* ======FOOTER SECTION====== */
 
 .footer {
@@ -632,7 +642,6 @@
     color: var(--green);
     padding-right: .5rem;
 }
-
 
 .footer .box a:hover  i{
     padding-right: 2rem;
