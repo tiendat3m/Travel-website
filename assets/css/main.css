@@ -47,6 +47,7 @@
 
 .header .header-list .icons {
     display: flex;
+    align-items: center;
 }
 
 .header .header-list .icons div, 
